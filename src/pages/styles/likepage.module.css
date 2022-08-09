@@ -1,0 +1,20 @@
+.wrapper {
+    display: flex;
+    padding: 50px 20px;
+  }
+  .home_body {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 20px;
+    row-gap: 40px;
+    padding: 35px 0 0 0;
+  }
+  main {
+    width: 100%;
+  }
+
+@media screen and(max-width: 700px) {
+  .home_body {
+    grid-template-columns: 1fr;
+  }
+}
