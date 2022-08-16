@@ -40,9 +40,9 @@ export const Header = () => {
                 ></i>
                 <nav>
                     <ul>
-                        <li><Link to="/">Home</Link></li>
-                        <li><Link to="/like">Like</Link></li>
-                        <li><Link to="/create">Create</Link></li>
+                        <li><Link onClick={() => setOpenHeader(false)} to="/" >Home</Link></li>
+                        <li><Link onClick={() => setOpenHeader(false)} to="/like">Like</Link></li>
+                        <li><Link onClick={() => setOpenHeader(false)} to="/create">Create</Link></li>
                     </ul>
                 </nav>
             </div>

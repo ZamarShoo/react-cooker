@@ -13,8 +13,8 @@
     width: 100%;
   }
 
-@media screen and(max-width: 700px) {
+@media screen and (max-width: 700px) {
   .home_body {
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr !important;
   }
 }
